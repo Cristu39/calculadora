@@ -8,9 +8,13 @@ public class Calculadora {
         int a = in.nextInt();
         System.out.println("Entra un segon nombre");
         int b = in.nextInt();
-        System.out.println("El primer numero més el segon dónan com a resultat: " + suma(a,b));
+        System.out.println("La suma dels dos valors és de: " + suma(a,b));
+        System.out.println("La resta dels dols valors és de: " + resta(a,b));
     }
     private static int suma(int a, int b){
         return a+b;
+    }
+    private static int resta(int a, int b){
+        return a - b;
     }
 }
