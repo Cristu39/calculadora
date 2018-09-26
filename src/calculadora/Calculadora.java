@@ -10,6 +10,7 @@ public class Calculadora {
         System.out.println("La suma dels dos valors és de: " + suma(n1,n2));
         System.out.println("La resta dels dos valors és de: " + resta(n1,n2));
         System.out.println("La multiplicació dels dos valors és de: " + multiplicacio(n1, n2));
+        System.out.println("La divisió dels dos nombres és de: " + divisio(n1,n2));
     }
     private static int suma(int a, int b){
         return a+b;
@@ -19,5 +20,8 @@ public class Calculadora {
     }
     public static float multiplicacio(int a, int b){
         return a * b;
+    }
+    public static float divisio(int a, int b){
+        return a/b;
     }
 }
